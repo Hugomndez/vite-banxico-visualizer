@@ -1,0 +1,33 @@
+:root {
+  /*Fonts*/
+  --ff-titles: 'Fjalla One', sans-serif;
+  --ff-content: 'Noto Sans', sans-serif;
+  /*Colors*/
+  /*Sizes*/
+  --h1: 3rem;
+  --p: 1.6rem;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: var(--p);
+  font-family: var(--ff-content);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  padding: 0 10px;
+}
+
