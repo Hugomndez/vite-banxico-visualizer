@@ -1,7 +1,18 @@
+import Header from '../components/Header';
+import Form from '../components/Form';
+import Charts from '../components/Charts';
 import './App.css';
 
-function App() {
-  return <h1>hello world</h1>;
-}
+const App = () => {
+  return (
+    <>
+      <Header />
+      <main>
+        <Form />
+        <Charts />
+      </main>
+    </>
+  );
+};
 
 export default App;
