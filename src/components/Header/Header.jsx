@@ -11,7 +11,7 @@ const Header = () => {
         </a>{' '}
         -{' '}
         <a
-          href='https://github.com/Hugomndez/banxico-visualizer'
+          href='https://github.com/Hugomndez/vite-banxico-visualizer'
           target='_blank'
           rel='noreferrer'
         >
